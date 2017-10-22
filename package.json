@@ -1,0 +1,21 @@
+{
+  "name": "dungeons-and-dragons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "components-font-awesome": "^4.6.3",
+    "grunt": "^1.0.1",
+    "grunt-metalsmith": "^1.0.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-pug": "^2.0.0",
+    "metalsmith-sass": "^1.4.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

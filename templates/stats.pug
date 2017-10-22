@@ -1,0 +1,99 @@
+//stats.pug
+mixin stat(name)
+  .card.stat
+    .card-header
+      | #{name}
+    .card-body
+      h2
+        | #{locals.modifiers[locals.character.stats[name]]}
+    .card-footer
+      | #{locals.character.stats[name]}
+
+mixin saving_throw(name)
+  tr
+    td
+      if locals.character.stats[name]
+        i.fa.fa-circle
+      else
+        i.fa.fa-circle-o
+    td
+      if locals.character.saving_throws[name]
+        | #{locals.modifiers[locals.character.stats[name]] + locals.character.proficiency}
+      else
+        | #{locals.modifiers[locals.character.stats[name]]}
+    td
+      | #{name}
+
+mixin skill(name, stat)
+  tr
+    td
+      if locals.character.skills[name]
+        i.fa.fa-circle
+      else
+        i.fa.fa-circle-o
+    td
+      if locals.character.skills[name]
+        | #{locals.modifiers[locals.character.stats[stat]] + locals.character.proficiency}
+      else
+        | #{locals.modifiers[locals.character.stats[stat]]}
+    td
+      | #{name}
+
+.row
+  .col-4.d-flex.flex-column
+    +stat('Strength')
+    +stat('Dexterity')
+    +stat('Constitution')
+    +stat('Intelligence')
+    +stat('Wisdom')
+    +stat('Charisma')
+
+  .col-8.d-flex.flex-column
+    .card
+      table.table.table-sm
+        tr
+          td
+            | #{locals.character.proficiency}
+          td
+            | Proficiency Bonus
+
+    .card
+      table.table.table-sm
+        +saving_throw('Strength')
+        +saving_throw('Dexterity')
+        +saving_throw('Constitution')
+        +saving_throw('Intelligence')
+        +saving_throw('Wisdom')
+        +saving_throw('Charisma')
+
+    .card
+      table.table.table-sm
+        +skill('Acrobatics', 'Dexterity')
+        +skill('Animal Handling', 'Wisdom')
+        +skill('Arcana', 'Intelligence')
+        +skill('Athletics', 'Strength')
+        +skill('Deception', 'Charisma')
+        +skill('History', 'Intelligence')
+        +skill('Insight', 'Wisdom')
+        +skill('Intimidation', 'Charisma')
+        +skill('Investigation', 'Intelligence')
+        +skill('Medicine', 'Wisdom')
+        +skill('Nature', 'Intelligence')
+        +skill('Perception', 'Wisdom')
+        +skill('Performance', 'Charisma')
+        +skill('Persuasion', 'Charisma')
+        +skill('Religion', 'Intelligence')
+        +skill('Sleight of Hand', 'Dexterity')
+        +skill('Stealth', 'Dexterity')
+        +skill('Survival', 'Wisdom')
+
+    .card
+      table.table.table-sm
+        tr
+          td
+            if locals.character.skills['Perception']
+              | #{10 + locals.modifiers[locals.character.stats['Wisdom']] + locals.character.proficiency}
+            else
+              | #{10 + locals.modifiers[locals.character.stats['Wisdom']]}
+          td
+            | Perception

@@ -1,0 +1,33 @@
+//title_bar.pug
+.row.d-flex
+  h1.col-4
+    | #{ locals.character.name }
+  table.table.table-sm.col-8
+    tr
+      td
+        | #{ locals.character.class }
+      td
+        | #{ locals.character.background }
+      td
+        | #{ locals.character.player }
+    tr
+      th
+        | Class
+      th
+        | Background
+      th
+        | Player Name
+
+    tr
+      td
+        | #{ locals.character.race }
+      td
+        | #{ locals.character.alignment }
+      td
+    tr
+      th
+        | Race
+      th
+        | Alignment
+      th
+        | Experience Points

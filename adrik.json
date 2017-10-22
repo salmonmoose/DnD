@@ -1,0 +1,102 @@
+{
+  "class": "Cleric",
+  "background": "Soldier",
+  "race": "Hill Dwarf",
+  "alignment": "Neutral Good",
+  "player": "Anton Fletcher",
+  "name": "Adrik Ungart",
+  "stats": {
+    "Strength": 14,
+    "Dexterity": 8,
+    "Constitution": 15,
+    "Intelligence": 10,
+    "Wisdom": 16,
+    "Charisma": 12
+  },
+  "saving_throws": {
+    "Strength": false,
+    "Dexterity": false,
+    "Constitution": false,
+    "Intelligence": false,
+    "Wisdom": true,
+    "Charisma": true
+  },
+  "skills": {
+    "Acrobatics": false,
+    "Animal Handling": false,
+    "Arcana": false,
+    "Athletics": true,
+    "Deception": false,
+    "History": false,
+    "Insight": false,
+    "Intimidation": true,
+    "Investigation": false,
+    "Medicine": true,
+    "Nature": false,
+    "Perception": false,
+    "Performance": false,
+    "Persuasion": false,
+    "Religion": true,
+    "Sleight of Hand": false,
+    "Stealth": false,
+    "Survival": false
+  },
+  "proficiencies": [
+    "all armor",
+    "shields",
+    "all simple weapons",
+    "battleaxes",
+    "handaxes",
+    "light hammers",
+    "warhammers",
+    "playing cards",
+    "mason's tools",
+    "land vehicles"
+  ],
+  "languages": [
+    "Common",
+    "Dwarvish"
+  ],
+  "special_proficiencies": [
+    {
+      "title": "Stonecunning",
+      "description": "Whenever you make an intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Warhammer",
+      "stat": "Strength",
+      "damage": "1d8 + 2",
+      "type": "bludgeoning"
+    },
+    {
+      "name": "Handaxe",
+      "stat": "Strength",
+      "damage": "1d6 + 2",
+      "type": "slashing",
+      "extra": "You can throw a handaxe 20 feet, or up to 60 feet with disadvantage on the attack roll"
+    }
+  ],
+  "equipment": [
+    {"quantity":  1, "name":"Chain Mail", "extra":"While wearing this armor, you have disadvantage on Dexterity (Stealth) checks."},
+    {"quantity":  1, "name":"Shield"},
+    {"quantity":  1, "name":"Warhammer"},
+    {"quantity":  1, "name":"Handaxe"},
+    {"quantity":  1, "name":"Holy Symbol"},
+    {"quantity":  1, "name":"Backpack"},
+    {"quantity":  1, "name":"Crowbar"},
+    {"quantity": 10, "name":"Torch"},
+    {"quantity":  1, "name":"Tinderbox"},
+    {"quantity": 10, "name":"Day Ration"},
+    {"quantity":  1, "name":"Waterskin"},
+    {"quantity": 50, "name":"Foot of hempen rope"},
+    {"quantity":  1, "name":"Mason's Tools"},
+    {"quantity":  1, "name":"Dagger taken from a fallen enemy as a trophy"},
+    {"quantity":  1, "name":"Deck of playing cards"},
+    {"quantity":  1, "name":"Set of common clothes"},
+    {"quantity":  1, "name":"Pouch"},
+    {"quantity":  1, "name":"Rank Insignia"}
+  ],
+  "proficiency": 2
+}
