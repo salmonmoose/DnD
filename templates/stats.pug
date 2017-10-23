@@ -5,7 +5,7 @@ mixin stat(name)
       | #{name}
     .card-body
       h2
-        | #{locals.modifiers[locals.character.stats[name]]}
+        | #{locals.game.modifiers[locals.character.stats[name]]}
     .card-footer
       | #{locals.character.stats[name]}
 
@@ -18,9 +18,9 @@ mixin saving_throw(name)
         i.fa.fa-circle-o
     td
       if locals.character.saving_throws[name]
-        | #{locals.modifiers[locals.character.stats[name]] + locals.character.proficiency}
+        | #{locals.game.modifiers[locals.character.stats[name]] + locals.character.proficiency}
       else
-        | #{locals.modifiers[locals.character.stats[name]]}
+        | #{locals.game.modifiers[locals.character.stats[name]]}
     td
       | #{name}
 
@@ -33,9 +33,9 @@ mixin skill(name, stat)
         i.fa.fa-circle-o
     td
       if locals.character.skills[name]
-        | #{locals.modifiers[locals.character.stats[stat]] + locals.character.proficiency}
+        | #{locals.game.modifiers[locals.character.stats[stat]] + locals.character.proficiency}
       else
-        | #{locals.modifiers[locals.character.stats[stat]]}
+        | #{locals.game.modifiers[locals.character.stats[stat]]}
     td
       | #{name}
 
@@ -92,8 +92,8 @@ mixin skill(name, stat)
         tr
           td
             if locals.character.skills['Perception']
-              | #{10 + locals.modifiers[locals.character.stats['Wisdom']] + locals.character.proficiency}
+              | #{10 + locals.game.modifiers[locals.character.stats['Wisdom']] + locals.character.proficiency}
             else
-              | #{10 + locals.modifiers[locals.character.stats['Wisdom']]}
+              | #{10 + locals.game.modifiers[locals.character.stats['Wisdom']]}
           td
             | Perception

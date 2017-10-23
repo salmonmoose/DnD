@@ -1,0 +1,63 @@
+{
+  "GUIDANCE": {
+    "school": "Divination",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S"],
+    "duration": "Concentration (up to 1 minute)",
+    "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends."
+  },
+
+  "LIGHT": {
+    "school": "Evocation",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "M (a firefly or phosphorescent moss)"],
+    "duration": "1 hour",
+    "description": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+  },
+
+  "RESISTANCE": {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S", "M (a miniature cloak)"],
+    "duration": "Concentration (up to 1 minute)",
+    "description": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends."
+  },
+
+  "SACRED FLAME": {
+    "school": "Evocation",
+    "cast_time": "1 action",
+    "range": "60 feet",
+    "components": ["V", "S"],
+    "duration": "Instantaneous",
+    "description": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw. The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+  },
+
+  "SPARE THE DYING": {
+    "school": "Necromancy",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S"],
+    "duration": "Instantaneous",
+    "description": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs."
+  },
+
+  "THAUMATURGY": {
+    "school": "Transmutation",
+    "cast_time": "1 action",
+    "range": "30 feet",
+    "components": ["V"],
+    "duration": "Up to 1 minute",
+    "description": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+    "effects": [
+      "Your voice booms up to three times as loud as normal for 1 minute.",
+      "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+      "You cause harmless tremors in the ground for 1 minute.",
+      "You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+      "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+      "You alter the appearance of your eyes for 1 minute."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "saving_throws": {
+    "Strength": false,
+    "Dexterity": false,
+    "Constitution": false,
+    "Intelligence": false,
+    "Wisdom": true,
+    "Charisma": true
+  }
+}
