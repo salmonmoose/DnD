@@ -16,8 +16,8 @@
           li
             | #{language}
 
-      for special_proficiency in locals.character.special_proficiencies
+      for proficiency in locals.character.special_proficiencies
         h2
-          | #{special_proficiency.title}
+          | #{proficiency}
         span
-          | #{special_proficiency.description}
+          | #{locals.game.proficiencies[proficiency]}

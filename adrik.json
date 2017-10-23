@@ -1,7 +1,8 @@
 {
   "class": "Cleric",
   "background": "Soldier",
-  "race": "Hill Dwarf",
+  "race": "Dwarf",
+  "culture": "Hill Dwarf",
   "alignment": "Neutral Good",
   "player": "Anton Fletcher",
   "name": "Adrik Ungart",
@@ -12,14 +13,6 @@
     "Intelligence": 10,
     "Wisdom": 16,
     "Charisma": 12
-  },
-  "saving_throws": {
-    "Strength": false,
-    "Dexterity": false,
-    "Constitution": false,
-    "Intelligence": false,
-    "Wisdom": true,
-    "Charisma": true
   },
   "skills": {
     "Acrobatics": false,
@@ -58,25 +51,11 @@
     "Dwarvish"
   ],
   "special_proficiencies": [
-    {
-      "title": "Stonecunning",
-      "description": "Whenever you make an intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus"
-    }
+    "Stonecunning"
   ],
   "weapons": [
-    {
-      "name": "Warhammer",
-      "stat": "Strength",
-      "damage": "1d8 + 2",
-      "type": "bludgeoning"
-    },
-    {
-      "name": "Handaxe",
-      "stat": "Strength",
-      "damage": "1d6 + 2",
-      "type": "slashing",
-      "extra": "You can throw a handaxe 20 feet, or up to 60 feet with disadvantage on the attack roll"
-    }
+    "Warhammer",
+    "Handaxe"
   ],
   "equipment": [
     {"quantity":  1, "name":"Chain Mail", "extra":"While wearing this armor, you have disadvantage on Dexterity (Stealth) checks."},

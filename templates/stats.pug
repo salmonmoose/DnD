@@ -12,12 +12,12 @@ mixin stat(name)
 mixin saving_throw(name)
   tr
     td
-      if locals.character.stats[name]
+      if locals.game.classes[locals.character.class].saving_throws[name]
         i.fa.fa-circle
       else
         i.fa.fa-circle-o
     td
-      if locals.character.saving_throws[name]
+      if locals.game.classes[locals.character.class].saving_throws[name]
         | #{locals.game.modifiers[locals.character.stats[name]] + locals.character.proficiency}
       else
         | #{locals.game.modifiers[locals.character.stats[name]]}
