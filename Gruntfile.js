@@ -36,11 +36,6 @@ module.exports = function (grunt) {
                 character: grunt.file.readJSON('adrik.json'),
                 game: game
               }
-            },
-
-            'metalsmith-assets-improved': {
-              src: 'node_modules/components-font-awesome/fonts',
-              dest: "fonts"
             }
           }
         }
@@ -69,6 +64,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.registerTask('default', [
+    'copy',
     'metalsmith'
   ]);
 }
