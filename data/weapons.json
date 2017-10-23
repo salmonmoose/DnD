@@ -2,7 +2,7 @@
   "Club": {
     "cost": "1 sp",
     "damage": "1d4",
-    "type": "bludgeoning",
+    "type": "Bludgeoning",
     "weight": "2 lb.",
     "properties": [
       "Light"
@@ -11,38 +11,38 @@
   "Dagger": {
     "cost": "2 gp",
     "damage": "1d4",
-    "type": "piercing",
-    "weight": "1 lb",    
+    "type": "Piercing",
+    "weight": "1 lb",
     "properties": [
       "Finesse",
-      "light",
-      "thrown (range 20/60)"
+      "Light",
+      "Thrown (range 20/60)"
     ]
   },
   "Greatclub": {
     "cost": "2 sp",
     "damage": "1d8",
-    "type": "bludgeoning",
-    "weight": "10 lb",    
+    "type": "Bludgeoning",
+    "weight": "10 lb",
     "properties": [
-      "Two-handed"
+      "Two-Handed"
     ]
   },
   "Handaxe": {
     "cost": "5 gp",
     "damage": "1d6",
-    "type": "slashing",
-    "weight": "2 lb",    
+    "type": "Slashing",
+    "weight": "2 lb",
     "properties": [
       "Light",
-      "thrown (range 20/60)"
+      "Thrown (range 20/60)"
     ]
   },
   "Javelin": {
     "cost": "5 sp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "2 lb",    
+    "type": "Piercing",
+    "weight": "2 lb",
     "properties": [
       "Thrown (range 30/120)"
     ]
@@ -50,27 +50,25 @@
   "Light Hammer": {
     "cost": "2 gp",
     "damage": "1d4",
-    "type": "bludgeoning",
-    "weight": "2 lb",    
+    "type": "Bludgeoning",
+    "weight": "2 lb",
     "properties": [
       "Light",
-      "thrown (range 20/60)"
+      "Thrown (range 20/60)"
     ]
   },
   "Mace": {
     "cost": "5 gp",
     "damage": "1d6",
-    "type": "bludgeoning",
-    "weight": "4 lb",    
-    "properties": [
-      "-"
-    ]
+    "type": "Bludgeoning",
+    "weight": "4 lb",
+    "properties": []
   },
   "Quarterstaff": {
     "cost": "2 sp",
     "damage": "1d6",
-    "type": "bludgeoning",
-    "weight": "4 lb",    
+    "type": "Bludgeoning",
+    "weight": "4 lb",
     "properties": [
       "Versatile (1d8)"
     ]
@@ -78,8 +76,8 @@
   "Sickle": {
     "cost": "1 gp",
     "damage": "1d4",
-    "type": "slashing",
-    "weight": "2 lb",    
+    "type": "Slashing",
+    "weight": "2 lb",
     "properties": [
       "Light"
     ]
@@ -87,49 +85,49 @@
   "Spear": {
     "cost": "1 gp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "3 lb",    
+    "type": "Piercing",
+    "weight": "3 lb",
     "properties": [
       "Thrown (range 20/60)",
-      "versatile (1d8)"
+      "Versatile (1d8)"
     ]
   },
   "Light Crossbow": {
     "cost": "25 gp",
     "damage": "1d8",
-    "type": "piercing",
-    "weight": "5 lb",    
+    "type": "Piercing",
+    "weight": "5 lb",
     "properties": [
       "Ammunition (range 80/320)",
-      "loading",
-      "two-handed"
+      "Loading",
+      "Two-Handed"
     ]
   },
   "Dart": {
     "cost": "5 cp",
     "damage": "1d4",
-    "type": "piercing",
-    "weight": "1/4 lb",    
+    "type": "Piercing",
+    "weight": "1/4 lb",
     "properties": [
       "Finesse",
-      "thrown (range 20/60)"
+      "Thrown (range 20/60)"
     ]
   },
   "Shortbow": {
     "cost": "25 gp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "2 lb",    
+    "type": "Piercing",
+    "weight": "2 lb",
     "properties": [
       "Ammunition (range 80/320)",
-      "two-handed"
+      "Two-Handed"
     ]
   },
   "Sling": {
     "cost": "1 sp",
     "damage": "1d4",
-    "type": "bludgeoning",
-    "weight": "-",    
+    "type": "Bludgeoning",
+    "weight": "-",
     "properties": [
       "Ammunition (range 30/120)"
     ]
@@ -137,8 +135,8 @@
   "Battleaxe": {
     "cost": "10 gp",
     "damage": "1d8",
-    "type": "slashing",
-    "weight": "4 lb",    
+    "type": "Slashing",
+    "weight": "4 lb",
     "properties": [
       "Versatile (1d10)"
     ]
@@ -146,57 +144,57 @@
   "Flail": {
     "cost": "10 gp",
     "damage": "1d8",
-    "type": "bludgeoning",
-    "weight": "2 lb",    
+    "type": "Bludgeoning",
+    "weight": "2 lb",
     "properties": []
   },
   "Glaive": {
     "cost": "20 gp",
     "damage": "1d10",
-    "type": "slashing",
-    "weight": "6 lb",    
+    "type": "Slashing",
+    "weight": "6 lb",
     "properties": [
       "Heavy",
-      "reach",
-      "two-handed"
+      "Reach",
+      "Two-Handed"
     ]
   },
   "Greataxe": {
     "cost": "30 gp",
     "damage": "1d12",
-    "type": "slashing",
-    "weight": "7 lb",    
+    "type": "Slashing",
+    "weight": "7 lb",
     "properties": [
       "Heavy",
-      "two-handed"
+      "Two-Handed"
     ]
   },
   "Greatsword": {
     "cost": "50 gp",
     "damage": "2d6",
-    "type": "slashing",
-    "weight": "6 lb",    
+    "type": "Slashing",
+    "weight": "6 lb",
     "properties": [
       "Heavy",
-      "two-handed"
+      "Two-Handed"
     ]
   },
   "Halberd": {
     "cost": "20 gp",
     "damage": "1d10",
-    "type": "slashing",
-    "weight": "6 lb",    
+    "type": "Slashing",
+    "weight": "6 lb",
     "properties": [
       "Heavy",
-      "reach",
-      "two-handed"
+      "Reach",
+      "Two-Handed"
     ]
   },
   "Lance": {
     "cost": "10 gp",
     "damage": "1d12",
-    "type": "piercing",
-    "weight": "6 lb",    
+    "type": "Piercing",
+    "weight": "6 lb",
     "properties": [
       "Reach",
       "special"
@@ -205,7 +203,7 @@
   "Longsword": {
     "cost": "15 gp",
     "damage": "1d8",
-    "type": "slashing",
+    "type": "Slashing",
     "weight": "3 lb",
     "properties": [
       "Versatile (1d10)"
@@ -214,36 +212,36 @@
   "Maul": {
     "cost": "10 gp",
     "damage": "2d6",
-    "type": "bludgeoning",
-    "weight": "10 lb",    
+    "type": "Bludgeoning",
+    "weight": "10 lb",
     "properties": [
       "Heavy",
-      "two-handed"
+      "Two-Handed"
     ]
   },
   "Morningstar": {
     "cost": "15 gp",
     "damage": "1d8",
-    "type": "piercing",
+    "type": "Piercing",
     "weight": "4 lb",    
     "properties": []
   },
   "Pike": {
     "cost": "5 gp",
     "damage": "1d10",
-    "type": "piercing",
-    "weight": "18 lb",    
+    "type": "Piercing",
+    "weight": "18 lb",
     "properties": [
       "Heavy",
-      "reach",
-      "two-handed"
+      "Reach",
+      "Two-Handed"
     ]
   },
   "Rapier": {
     "cost": "25 gp",
     "damage": "1d8",
-    "type": "piercing",
-    "weight": "2 lb",    
+    "type": "Piercing",
+    "weight": "2 lb",
     "properties": [
       "Finesse"
     ]
@@ -251,44 +249,44 @@
   "Scimitar": {
     "cost": "25 gp",
     "damage": "1d6",
-    "type": "slashing",
-    "weight": "3 lb",    
+    "type": "Slashing",
+    "weight": "3 lb",
     "properties": [
       "Finesse",
-      "light"
+      "Light"
     ]
   },
   "Shortsword": {
     "cost": "10 gp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "2 lb",    
+    "type": "Piercing",
+    "weight": "2 lb",
     "properties": [
       "Finesse",
-      "light"
+      "Light"
     ]
   },
   "Trident": {
     "cost": "5 gp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "4 lb",    
+    "type": "Piercing",
+    "weight": "4 lb",
     "properties": [
       "Thrown (range 20/60)",
-      "versatile (1d8)"
+      "Versatile (1d8)"
     ]
   },
   "War pick": {
     "cost": "5 gp",
     "damage": "1d8",
-    "type": "piercing",
+    "type": "Piercing",
     "weight": "2 lb",
     "properties": []
   },
   "Warhammer": {
     "cost": "15 gp",
     "damage": "1d8",
-    "type": "bludgeoning",
+    "type": "Bludgeoning",
     "weight": "2 lb",
     "properties": [
       "Versatile (1d10)"
@@ -297,54 +295,54 @@
   "Whip": {
     "cost": "2 gp",
     "damage": "1d4",
-    "type": "slashing",
-    "weight": "3 lb",    
+    "type": "Slashing",
+    "weight": "3 lb",
     "properties": [
-      "Finesse, reach"
+      "Finesse, Reach"
     ]
   },
   "Blowgun": {
     "cost": "10 gp",
     "damage": "1",
-    "type": "piercing",
+    "type": "Piercing",
     "weight": "1 lb",
     "properties": [
       "Ammunition (range 25/100)",
-      "loading"
+      "Loading"
     ]
   },
   "Hand Crossbow": {
     "cost": "75 gp",
     "damage": "1d6",
-    "type": "piercing",
-    "weight": "3 lb",    
+    "type": "Piercing",
+    "weight": "3 lb",
     "properties": [
       "Ammunition (range 30/120)",
-      "light",
-      "loading"
+      "Light",
+      "Loading"
     ]
   },
   "Heavy Crossbow": {
     "cost": "50 gp",
     "damage": "1d10",
-    "type": "piercing",
-    "weight": "18 lb",    
+    "type": "Piercing",
+    "weight": "18 lb",
     "properties": [
       "Ammunition (range 100/400)",
-      "heavy",
-      "loading",
-      "two-handed"
+      "Heavy",
+      "Loading",
+      "Two-Handed"
     ]
   },
   "Longbow": {
     "cost": "50 gp",
     "damage": "1d8",
-    "type": "piercing",
-    "weight": "2 lb",    
+    "type": "Piercing",
+    "weight": "2 lb",
     "properties": [
       "Ammunition (range 150/600)",
-      "heavy",
-      "two-handed"
+      "Heavy",
+      "Two-Handed"
     ]
   },
   "Net": {
@@ -354,7 +352,7 @@
     "weight": "3 lb",
     "properties": [
       "Special",
-      "thrown (range 5/15)"
+      "Thrown (range 5/15)"
     ]
   }
 }

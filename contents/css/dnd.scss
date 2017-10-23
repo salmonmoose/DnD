@@ -1,3 +1,28 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import '../../node_modules/components-font-awesome/scss/font-awesome.scss';
 @import '../../node_modules/rpg-awesome/scss/rpg-awesome.scss';
+
+.card.stat,
+.card.stat .card-header,
+.card.stat .card-footer {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+}
+
+.card.stat .card-body {
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.card.stat .card-header {
+  padding-bottom: 0;
+}
+
+.card.stat .card-footer {
+  padding-top: 0;
+}
+
+.card.currency {
+  line-height: 4em;
+}

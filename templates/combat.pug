@@ -1,18 +1,33 @@
 //combat.pug
 .card
-  .d-flex
-    .card
-      | 18
-    .card
-      | -1
-    .card
-      | #{locals.game.races[locals.character.race].speed}
+  .row
+    .col-4
+      .card
+        | 18
+    .col-4
+      .card
+        | -1
+    .col-4
+      .card
+        | #{locals.game.races[locals.character.race].speed}
   .card
     | Current Hit Points
   .card
     | Temporary Hit Points
-  .d-flex
-    .card
-      | Hit Dice
-    .card
-      | Death Saves
+  .row
+    .col-6
+      .card
+        | Hit Dice
+    .col-6
+      .card
+        div
+          | Successes
+          i.fa.fa-circle-o
+          i.fa.fa-circle-o
+          i.fa.fa-circle-o
+        div
+          | Failures
+          i.fa.fa-circle-o
+          i.fa.fa-circle-o
+          i.fa.fa-circle-o
+        | Death Saves

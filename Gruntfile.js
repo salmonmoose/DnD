@@ -13,6 +13,7 @@ module.exports = function (grunt) {
       "level_1": grunt.file.readJSON('data/level_1.json'),
       "level_2": grunt.file.readJSON('data/level_2.json')
     },
+    weapons: grunt.file.readJSON('data/weapons.json'),
     proficiencies: grunt.file.readJSON('data/proficiencies.json')
   };
 

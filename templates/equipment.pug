@@ -1,0 +1,29 @@
+//equipment.pug
+mixin weapon(name)
+  - var my_weapon = locals.game.weapons[name]
+  - var proficiency = locals.character.proficiency
+
+    if my_weapon.properties.indexOf('Finesse') >= 0
+      - var modifier = Math.max(locals.game.modifiers[locals.character.stats['Strength']], locals.game.modifiers[locals.character.state['Dexterity']]);
+    else
+      - var modifier = locals.game.modifiers[locals.character.stats['Strength']];
+
+  tr
+    td
+      | #{name}
+    td
+      | #{modifier + proficiency}
+    td
+      | #{my_weapon.damage} +#{proficiency} #{my_weapon.type}
+
+table.table
+  tr
+    th
+      | Name
+    th
+      | Attack Bonus
+    th
+      | Damage
+
+  for weapon in locals.character.weapons
+    +weapon(weapon)

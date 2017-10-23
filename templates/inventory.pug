@@ -1,0 +1,39 @@
+//inventory.pug
+- var extras = []
+.card
+  .row
+    .col-3.d-flex.flex-column
+      .card.currency
+        | CP
+      .card.currency
+        | SP
+      .card.currency
+        | EP
+      .card.currency
+        | GP
+      .card.currency
+        | PP
+
+    .col-9
+      table.table
+        for item in locals.character.equipment
+
+          tr
+            td
+              | #{item.name}
+              if item.hasOwnProperty('extra')
+                - extras.push(item.extra)
+                | &nbsp;
+                - for (var i = 0; i < extras.length; i++) {
+                  | *
+                - }
+              if item.quantity > 1
+                |  x#{item.quantity}
+
+      - for (var i = 0; i < extras.length; i++) {
+        div
+          - for (var j = 0; j < i + 1; j++) {
+            | *
+          - }
+          | #{extras[i]}
+      - }

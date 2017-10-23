@@ -71,7 +71,7 @@
     {"quantity":  1, "name":"Waterskin"},
     {"quantity": 50, "name":"Foot of hempen rope"},
     {"quantity":  1, "name":"Mason's Tools"},
-    {"quantity":  1, "name":"Dagger taken from a fallen enemy as a trophy"},
+    {"quantity":  1, "name":"Dagger", "extra": "taken from a fallen enemy as a trophy"},
     {"quantity":  1, "name":"Deck of playing cards"},
     {"quantity":  1, "name":"Set of common clothes"},
     {"quantity":  1, "name":"Pouch"},
