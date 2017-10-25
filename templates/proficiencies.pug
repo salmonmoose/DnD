@@ -1,23 +1,22 @@
 //proficiencies.pug
-.row
-  .card
-    .card-body.d-flex.flex-column
-      h2
-        | Proficiencies
-      ul
-        for proficiency in locals.character.proficiencies
-          li
-            | #{proficiency}
-
-      h2
-        | Languages
-      ul
-        for language in locals.character.languages
-          li
-            | #{language}
-
-      for proficiency in locals.character.special_proficiencies
-        h2
+.card
+  .card-body.d-flex.flex-column
+    h2
+      | Proficiencies
+    ul
+      for proficiency in locals.character.proficiencies
+        li
           | #{proficiency}
-        span
-          | #{locals.game.proficiencies[proficiency]}
+
+    h2
+      | Languages
+    ul
+      for language in locals.character.languages
+        li
+          | #{language}
+
+    for proficiency in locals.character.special_proficiencies
+      h2
+        | #{proficiency}
+      span
+        | #{locals.game.proficiencies[proficiency]}
