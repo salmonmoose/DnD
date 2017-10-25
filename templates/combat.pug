@@ -1,15 +1,29 @@
 //combat.pug
+- var my_armor = locals.game.armor[locals.character.armor]
+- if ('dexterity' in my_armor)
+  - var ac = my_armor.ac + Math.min(my_armor.dexterity, locals.game.modifiers[locals.character.stats['Dexterity']])
+- else
+  - var ac = my_armor.ac
+
+- if ('strength' in my_armor && my_armor.strength > locals.character.stats['Strength'])
+  - var speed = locals.game.races[locals.character.race].speed - 10
+- else
+  - var speed = locals.game.races[locals.character.race].speed
+
+- if ('shield' in locals.character)
+  - var ac = ac + locals.game.armor[locals.character.shield].ac
+
 .card
   .row
     .col-4
       .card
-        | 18
+        | #{ac}
     .col-4
       .card
         | -1
     .col-4
       .card
-        | #{locals.game.races[locals.character.race].speed}
+        | #{speed}
   .card
     | Current Hit Points
   .card

@@ -57,6 +57,8 @@
     "Warhammer",
     "Handaxe"
   ],
+  "armor": "Chain Mail",
+  "shield": "Shield",
   "equipment": [
     {"quantity":  1, "name":"Chain Mail", "extra":"While wearing this armor, you have disadvantage on Dexterity (Stealth) checks."},
     {"quantity":  1, "name":"Shield"},
