@@ -1,0 +1,73 @@
+{
+  "BEACON OF HOPE" : {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "30 feet",
+    "components": ["V", "S"],
+    "duration": "Concentration (up to 1 minute)",
+    "description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
+  },
+
+  "DISPEL MAGIC": { 
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "120 feet",
+    "components": ["V", "S"],
+    "duration": "Instantaneous",
+    "description": "Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a successful check, the spell ends. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell’s level is equal to or less than the level of the spell slot you used."
+  },
+
+  "MASS HEALING WORD": {
+    "school": "Evocation",
+    "cast_time": "1 bonus action",
+    "range": "60 feet",
+    "components": ["V"],
+    "duration": "Instantaneous",
+    "description": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd."
+  },
+
+  "PROTECTION FROM ENERGY": {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S"],
+    "duration": "Concentration (up to 1 hour)",
+    "description": "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
+  },
+
+  "REMOVE CURSE": {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S"],
+    "duration": "Instantaneous",
+    "description": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s attunement to the object so it can be removed or discarded."
+  },
+
+  "REVIVIFY": {
+    "school": "Conjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S", "M (diamonds worth 300gp, which the spell consumes)"],
+    "duration": "Instantaneous",
+    "description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts."
+  },
+
+  "SPEAK WITH DEAD": {
+    "school": "Necromancy",
+    "cast_time": "1 action",
+    "range": "10 feet",
+    "components": ["V", "S", "M (burning incense)"],
+    "duration": "10 minutes",
+    "description": "You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days. Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events."
+  },
+
+  "SPIRIT GUARDIANS": {
+    "school": "Conjuration",
+    "cast_time": "1 action",
+    "range": "Self (15-foot radius)",
+    "components": ["V", "S", "M (a holy symbol)"],
+    "duration": "Concentration (up to 10 minutes)",
+    "description": "You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish. When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd."
+  }
+}

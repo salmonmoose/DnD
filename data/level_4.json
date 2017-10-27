@@ -1,0 +1,46 @@
+{
+  "DEATH WARD": {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S"],
+    "duration": "8 hours",
+    "description": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."
+  },
+
+  "DIVINATION": {
+    "school": "Divination",
+    "school_extra": "Ritual",
+    "range": "Self",
+    "components": ["V", "S", "M (incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes)"],
+    "duration": "Instantaneous",
+    "description": "Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+  },
+
+  "FREEDOM OF MOVEMENT": {
+    "school": "Abjuration",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": ["V", "S", "M (a leather strap, bound around the arm or similar appendage)"],
+    "duration": "1 hour",
+    "description": "You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained. The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks."
+  },
+
+  "GUARDIAN OF FAITH": {
+    "school": "Conjuration",
+    "cast_time": "1 action",
+    "range": "30 feet",
+    "componets": ["V"],
+    "duration": "8 hours",
+    "description": "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity. Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+  },
+
+  "LOCATE CREATURE": {
+    "school": "Divination",
+    "cast_time": "1 action",
+    "range": "Self",
+    "components": ["V", "S", "M (a bit of fur from a bloodhound)"],
+    "duration": "Concentration (up to 1 hour)",
+    "description": "Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement. The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn’t locate the creature. This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature."
+  }
+}

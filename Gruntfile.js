@@ -11,7 +11,14 @@ module.exports = function (grunt) {
     spells: {
       "cantrips": grunt.file.readJSON('data/cantrips.json'),
       "level_1": grunt.file.readJSON('data/level_1.json'),
-      "level_2": grunt.file.readJSON('data/level_2.json')
+      "level_2": grunt.file.readJSON('data/level_2.json'),
+      "level_3": grunt.file.readJSON('data/level_3.json'),
+      "level_4": grunt.file.readJSON('data/level_4.json'),
+      "level_5": grunt.file.readJSON('data/level_5.json'),
+      "level_6": grunt.file.readJSON('data/level_6.json'),
+      "level_7": grunt.file.readJSON('data/level_7.json'),
+      "level_8": grunt.file.readJSON('data/level_8.json'),
+      "level_9": grunt.file.readJSON('data/level_9.json')
     },
     weapons: grunt.file.readJSON('data/weapons.json'),
     armor: grunt.file.readJSON('data/armor.json'),
